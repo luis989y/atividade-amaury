@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luís Davi Santos da Silva — Currículo</title>
+  <meta name="description" content="Currículo de Luís Davi Santos da Silva" />
+  <style>
+    :root{
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --accent: #0b72ff;
+      --muted: #6b7280;
+      --text: #0f1724;
+      --max-width: 900px;
+      --gap: 20px;
+      --radius: 10px;
+      --shadow: 0 6px 18px rgba(11,15,30,0.08);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family: Arial, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.45;
+      padding:30px;
+      display:flex;
+      justify-content:center;
+    }
+    .resume{
+      width:100%;
+      max-width:var(--max-width);
+      display:grid;
+      grid-template-columns: 280px 1fr;
+      gap:var(--gap);
+    }
+    .side{
+      background:var(--card);
+      border-radius:var(--radius);
+      padding:22px;
+      box-shadow:var(--shadow);
+      height:fit-content;
+    }
+    .photo{
+      width:110px;
+      height:110px;
+      border-radius:50%;
+      background:linear-gradient(135deg,var(--accent),#7bd3ff);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:white;
+      font-weight:700;
+      font-size:28px;
+      margin:0 auto 16px auto;
+    }
+    .name{
+      text-align:center;
+      margin-bottom:6px;
+      font-size:20px;
+      font-weight:700;
+    }
+    .title{
+      text-align:center;
+      color:var(--muted);
+      font-size:13px;
+      margin-bottom:14px;
+    }
+    .contact p{
+      margin:8px 0;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .section-title{
+      font-size:13px;
+      font-weight:700;
+      color:var(--accent);
+      margin-top:10px;
+      margin-bottom:8px;
+    }
+    .skills .skill{
+      font-size:13px;
+      background:#f1f5f9;
+      padding:6px 10px;
+      border-radius:999px;
+      color:var(--muted);
+      display:inline-block;
+      margin:4px;
+    }
+    .main{
+      background:var(--card);
+      border-radius:var(--radius);
+      padding:24px;
+      box-shadow:var(--shadow);
+    }
+    .item{
+      margin-bottom:18px;
+    }
+    .item-title{
+      font-weight:700;
+      font-size:15px;
+    }
+    .item-sub{
+      color:var(--muted);
+      font-size:13px;
+      margin-top:4px;
+    }
+    .item-desc{
+      margin-top:8px;
+      color:var(--muted);
+      font-size:14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+
+    <!-- LATERAL -->
+    <aside class="side">
+      <div class="photo">LD</div>
+
+      <h1 class="name">Luís Davi Santos da Silva</h1>
+      <div class="title">Profissional Multifunção • Atendimento • Logística</div>
+
+      <div class="contact">
+        <p><strong>Data de Nascimento:</strong> 02/10/2004</p>
+        <p><strong>Telefone:</strong> 82 98804-7302</p>
+        <p><strong>Email:</strong> ldavisantos7@gmail.com</p>
+        <p><strong>Cidade:</strong> Maceió - AL</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Habilidades</div>
+        <div class="skills">
+          <span class="skill">Proatividade</span>
+          <span class="skill">Organização</span>
+          <span class="skill">Comunicação</span>
+          <span class="skill">Atendimento ao Cliente</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Cursos</div>
+        <div class="skills">
+          <span class="skill">JavaScript</span>
+          <span class="skill">Python (básico)</span>
+          <span class="skill">Administração</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- PRINCIPAL -->
+    <main class="main">
+
+      <section class="item">
+        <h2 class="section-title">Resumo</h2>
+        <p class="item-desc">
+          Profissional jovem, dedicado e com experiência em atendimento ao público e rotinas operacionais.
+          Proativo, organizado e com facilidade para aprender novas funções. Em busca de oportunidades para
+          crescimento profissional e aplicação das minhas competências.
+        </p>
+      </section>
+
+      <section class="item">
+        <h2 class="section-title">Experiência Profissional</h2>
+
+        <div class="item">
+          <div class="item-title">Entregador</div>
+          <div class="item-sub">Serviços de entrega — (ano/coloque período)</div>
+          <div class="item-desc">
+            • Realização de entregas rápidas e organização
